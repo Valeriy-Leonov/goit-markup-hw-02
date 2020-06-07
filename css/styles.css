@@ -3,6 +3,7 @@
   --secondary-text-color: #757575;
   --white-text-color: #ffffff;
   --akcent: #2196f3;
+  --button-second: #f5f4fa;
 }
 /* цвет основного текста */
 body {
@@ -44,7 +45,7 @@ background: #f5f4fa;
   color: var(--primary-text-color);
 }
 .site-nav .link.current {
-  color: var(--akcent)
+  color: var(--akcent);
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -85,18 +86,29 @@ background: #f5f4fa;
   color: var(--white-text-color);
   background-color: var(--akcent);
 }
-/* white-text-title*/
 
-.white-text-title {
+.button-second {
   text-decoration: none;
-  color: var(--white-text-color);
+  color: var(--primary-text-color);
+  background-color: var(--button-second);
 }
-.footer-text-title {
+
+  /* white-text-title*/
+  .white-text-title  {
+    text-decoration: none;
+    color: var(--white-text-color);
+  }
+  .footer-text-title {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+  }
+  .footer-white-title {
+    text-decoration: none;
+    color: var(--white-text-color);
+  }
+}
+/* partfolio-text-title */
+.partfolio.text-title {
   text-decoration: none;
   color: var(--secondary-text-color);
-}
-.footer-white-title {
-  text-decoration: none;
-  color: var(--white-text-color);
-}
 }
