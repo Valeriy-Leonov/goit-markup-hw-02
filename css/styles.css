@@ -1,0 +1,99 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #ffffff;
+  --akcent: #2196f3;
+}
+/* цвет основного текста */
+body {
+  background: #f5f4fa;
+  color: #212121;
+}
+/* вторичный цвет текста */
+color: #757575;
+
+/* белый текст */
+color: #ffffff;
+
+/* акцент */
+color: #2196f3;
+
+/* цвет основного фона */
+background: #f5f4fa;
+
+/* вторичный цвет фона */
+background: #f5f4fa;
+
+.logo {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: var(--akcent);
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+/* site-nav */
+.site-nav a {
+  text-decoration: none;
+  color: var(--akcent);
+}
+.site-nav :hover,
+.site-nav :focus {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+/* contact list */
+.site-nav-contact a {
+  text-decoration: none;
+  color: var(--akcent);
+}
+.site-nav-contact :hover,
+.site-nav-contact :focus {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+/* hero */
+.hero-title {
+  text-decoration: none;
+  color: var(--white-text-color);
+}
+
+/* section */
+.section-title {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+/* feauteres */
+.feauteres-title {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+/* button */
+.button {
+  text-decoration: none;
+  color: var(--white-text-color);
+  background-color: var(--akcent);
+}
+/* white-text-title*/
+
+.white-text-title {
+  text-decoration: none;
+  color: var(--white-text-color);
+}
+.footer-text-title {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.footer-white-title {
+  text-decoration: none;
+  color: var(--white-text-color);
+}
+}
