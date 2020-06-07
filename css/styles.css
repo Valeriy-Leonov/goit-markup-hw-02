@@ -41,23 +41,26 @@ background: #f5f4fa;
 /* site-nav */
 .site-nav a {
   text-decoration: none;
-  color: var(--akcent);
+  color: var(--primary-text-color);
+}
+.site-nav .link.current {
+  color: var(--akcent)
 }
 .site-nav :hover,
 .site-nav :focus {
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: var(--akcent);
 }
 
 /* contact list */
 .site-nav-contact a {
   text-decoration: none;
-  color: var(--akcent);
+  color: var(--secondary-text-color);
 }
 .site-nav-contact :hover,
 .site-nav-contact :focus {
   text-decoration: none;
-  color: var(--secondary-text-color);
+  color: var(--akcent);
 }
 
 /* hero */
