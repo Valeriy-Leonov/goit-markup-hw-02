@@ -5,112 +5,96 @@
   --akcent: #2196f3;
   --button-second: #f5f4fa;
 }
-/* цвет основного текста */
-body {
+a {
+  text-decoration: none;
+}
+
+.page {
   background: #f5f4fa;
   color: #212121;
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
 }
-/* вторичный цвет текста */
-color: #757575;
-
-/* белый текст */
-color: #ffffff;
-
-/* акцент */
-color: #2196f3;
-
-/* цвет основного фона */
-background: #f5f4fa;
-
-/* вторичный цвет фона */
-background: #f5f4fa;
 
 .logo {
-  text-decoration: none;
   color: var(--primary-text-color);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
-
-.logo:hover {
-  text-decoration: none;
+.logo-color {
   color: var(--akcent);
 }
 
+.logo:hover {
+color: var(--akcent);
+}
+
 .list {
-  text-decoration: none;
-  list-style: none;
+list-style: none;
 }
 /* site-nav */
 .site-nav a {
-  text-decoration: none;
-  color: var(--primary-text-color);
+color: var(--primary-text-color);
 }
 .site-nav .link.current {
   color: var(--akcent);
 }
 .site-nav :hover,
 .site-nav :focus {
-  text-decoration: none;
-  color: var(--akcent);
+color: var(--akcent);
 }
 
 /* contact list */
 .site-nav-contact a {
-  text-decoration: none;
-  color: var(--secondary-text-color);
+color: var(--secondary-text-color);
 }
 .site-nav-contact :hover,
 .site-nav-contact :focus {
-  text-decoration: none;
-  color: var(--akcent);
+color: var(--akcent);
 }
 
 /* hero */
 .hero-title {
-  text-decoration: none;
-  color: var(--white-text-color);
+color: var(--white-text-color);
 }
 
 /* section */
 .section-title {
-  text-decoration: none;
-  color: var(--primary-text-color);
+color: var(--primary-text-color);
 }
 /* feauteres */
 .feauteres-title {
-  text-decoration: none;
-  color: var(--secondary-text-color);
+color: var(--secondary-text-color);
 }
 /* button */
 .button {
-  text-decoration: none;
   color: var(--white-text-color);
   background-color: var(--akcent);
+  font-family: Roboto;
+  font-family: inherit;
+ font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .button-second {
-  text-decoration: none;
-  color: var(--primary-text-color);
+color: var(--primary-text-color);
   background-color: var(--button-second);
 }
 
   /* white-text-title*/
   .white-text-title  {
-    text-decoration: none;
     color: var(--white-text-color);
   }
   .footer-text-title {
-    text-decoration: none;
     color: var(--secondary-text-color);
   }
   .footer-white-title {
-    text-decoration: none;
     color: var(--white-text-color);
   }
 }
 /* partfolio-text-title */
 .partfolio-text-title {
-  text-decoration: none;
-  color: var(--secondary-text-color);
+color: var(--secondary-text-color);
 }
