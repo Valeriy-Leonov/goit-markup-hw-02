@@ -32,10 +32,16 @@ color: var(--akcent);
 
 .list {
 list-style: none;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.1;
 }
 /* site-nav */
 .site-nav a {
 color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
 }
 .site-nav .link.current {
   color: var(--akcent);
@@ -48,6 +54,10 @@ color: var(--akcent);
 /* contact list */
 .site-nav-contact a {
 color: var(--secondary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+
 }
 .site-nav-contact :hover,
 .site-nav-contact :focus {
@@ -57,6 +67,12 @@ color: var(--akcent);
 /* hero */
 .hero-title {
 color: var(--white-text-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 /* section */
@@ -66,6 +82,9 @@ color: var(--primary-text-color);
 /* feauteres */
 .feauteres-title {
 color: var(--secondary-text-color);
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
 }
 /* button */
 .button {
@@ -73,7 +92,7 @@ color: var(--secondary-text-color);
   background-color: var(--akcent);
   font-family: Roboto;
   font-family: inherit;
- font-weight: bold;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
 }
