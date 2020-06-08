@@ -108,7 +108,7 @@ background: #f5f4fa;
   }
 }
 /* partfolio-text-title */
-.partfolio.text-title {
+.partfolio-text-title {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
