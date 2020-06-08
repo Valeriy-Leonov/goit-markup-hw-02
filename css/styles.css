@@ -9,6 +9,7 @@
 body {
   background: #f5f4fa;
   color: #212121;
+  font-family: roboto, sans-serif;
 }
 /* вторичный цвет текста */
 color: #757575;
@@ -28,6 +29,7 @@ background: #f5f4fa;
 .logo {
   text-decoration: none;
   color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
 }
 
 .logo:hover {
